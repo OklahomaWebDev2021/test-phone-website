@@ -124,16 +124,22 @@
   font-family: 'Roboto Condensed', sans-serif;
   /* Why did i have to put a negative value here to make sections butt up against each other? */
   margin-top: -4px;
-  padding-left: 45px;
+
   color: white;
 }
 
 .contact-title {
   margin-bottom: 15px;
+  padding-left: 45px;
+}
+
+.contact-sub-title {
+  margin-left: 25px;
 }
 
 .input-radio {
   margin-bottom: 15px;
+  margin-left: 45px;
 }
 
 .input-radio:last-child {
@@ -141,9 +147,10 @@
 }
 
 .input-text {
-  width: 80%;
+  width: 85%;
   height: 30px;
   margin-bottom: 15px;
+  margin-left: 25px;
 }
 
 .contact-title {
@@ -158,6 +165,12 @@
   margin-top: 25px;
   font-weight: 300;
   font-style: normal;
+  margin-left: 25px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
 }
 
 .button-format {
