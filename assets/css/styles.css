@@ -120,10 +120,11 @@
 /* Contact Us Section */
 .contact-us {
   background-color: rgb(101, 191, 251);
-  text-align: center;
+  /* text-align: center; */
   font-family: 'Roboto Condensed', sans-serif;
   /* Why did i have to put a negative value here to make sections butt up against each other? */
   margin-top: -4px;
+  padding-left: 45px;
   color: white;
 }
 
@@ -135,19 +136,36 @@
   margin-bottom: 15px;
 }
 
+.input-radio:last-child {
+  margin-left: 35px;
+}
+
 .input-text {
-  width: 50%;
+  width: 80%;
+  height: 30px;
   margin-bottom: 15px;
 }
 
 .contact-title {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 600;
+  font-size: 2.5em;
   padding-top: 55px;
+  text-transform: uppercase;
 }
 
 .label-format {
   margin-top: 25px;
   font-weight: 300;
   font-style: normal;
+}
+
+.button-format {
+  border: none;
+  background-color: rgb(227, 0, 0);
+  color: white;
+  padding: 15px 45px;
+  font-weight: bold;
+  font-size: 1em;
+  text-transform: uppercase;
 }

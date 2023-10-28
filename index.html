@@ -78,20 +78,25 @@
       <h2 class="contact-title">Contact Us</h2>
       <p>I'm Interested in:</p>
       <form action="">
+        <!-- Radio Input for Form -->
         <input
           type="radio"
           name="customer-type"
           id="residential"
-          value="Radio"
+          value="Residential"
           class="input-radio"
-        /><label for="html">Residential</label>
+        />
+        <label for="html">Residential</label>
         <input
           type="radio"
           name="customer-type"
           id="commercial"
           value="Commercial"
           class="input-radio"
-        /><label for="html">Commercial</label><br />
+        />
+        <label for="html">Commercial</label><br />
+
+        <!-- Text Input for Form -->
         <label for="html" class="label-format">Name (required)</label><br />
         <input type="text" name="name" id="name" class="input-text" /><br />
         <label for="html" class="label-format"
@@ -113,7 +118,9 @@
           >Current Provider (required)</label
         ><br />
         <input type="text" name="name" id="name" class="input-text" /><br />
-        <input type="button" class="label-format" value="Send" />
+
+        <!-- Button Input for Form -->
+        <input type="button" class="button-format" value="Send" />
 
         <br />
       </form>
