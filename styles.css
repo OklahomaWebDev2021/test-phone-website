@@ -108,7 +108,7 @@ input {
   font-style: normal;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 640px) {
   .test-block {
     left: 25px;
     top: 25px;
